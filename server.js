@@ -11,8 +11,8 @@ socket.bind('tcp://0.0.0.0:5678', (err) => {
     }
 
     setInterval(() => {
-        console.log(counter++);
-        socket.send('Hello ZMQ')
+        socket.send(counter)
+        console.log('Sent', counter++);
     }, 1000)
 
 })
