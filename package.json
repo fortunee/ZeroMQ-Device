@@ -1,0 +1,25 @@
+{
+  "name": "zeromq-device",
+  "version": "1.0.0",
+  "description": "This is simple ZeroMQ device with a simple server that sends message to clients",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortunee/ZeroMQ-Device.git"
+  },
+  "keywords": [
+    "ZeroMQ",
+    "Sockets",
+    "Queues"
+  ],
+  "author": "Fortune Ekeruo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fortunee/ZeroMQ-Device/issues"
+  },
+  "homepage": "https://github.com/fortunee/ZeroMQ-Device#readme"
+}
