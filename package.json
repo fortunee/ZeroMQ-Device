@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/fortunee/ZeroMQ-Device#readme",
   "dependencies": {
+    "axios": "^0.17.1",
     "zeromq": "^4.6.0"
   },
   "devDependencies": {
