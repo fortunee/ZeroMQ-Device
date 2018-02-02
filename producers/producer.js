@@ -1,6 +1,5 @@
 import zmq from 'zeromq';
 import axios from 'axios';
-import { start } from 'repl';
 
 const socket = zmq.socket('push');
 const URL = 'http://5a746a4e61c2a40012894a84.mockapi.io/api/orders';
