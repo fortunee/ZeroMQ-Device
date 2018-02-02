@@ -22,7 +22,4 @@ client.bind('tcp://0.0.0.0:5600', (err) => {
     }
 })
 
-// setInterval(() => {
-//     socket.send(counter)
-//     console.log('Sent', counter++);
-// }, 1000)
+console.log('0MQ Device Sever Running....');

@@ -5,8 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:server": "babel-node server.js",
-    "start:client": "babel-node client.js"
+    "start:device": "babel-node device.js",
+    "start:consumer": "babel-node consumers/consumer.js",
+    "start:producer": "babel-node producers/producer.js"
   },
   "repository": {
     "type": "git",
